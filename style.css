@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Redressed&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Advent+Pro|Dancing+Script&display=swap');
+
+
+body {
+    font-family: "Advent Pro" , "sans-serif";
+    padding: 0;
+    margin: 0;
+
+}
+ul{
+    padding: 0px;
+    margin: 0px;
+}
+li {
+    list-style: none;
+
+}
+h2{
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 2em ;
+}
+a {
+text-decoration: none;
+color: black; 
+}
+/*******navbar**********/
+nav{
+
+    overflow: hidden;
+    position: fixed;
+    background-color: #FFFAE1;
+    width: 100%;
+    opacity: 0.9;
+}
+header li {
+    float: right;
+    font-size: 1.2em;
+
+}
+header li a
+{
+   text-decoration: none;
+   text-align: center;
+   display: block;
+   padding: 18px 16px;
+
+}
+#logo{
+    font-family: "Dancing script" , "cursive";
+    float: left;
+   font-weight: bold;
+
+}
+/*******************image principale***********/
+#imageprincipale{
+    padding-top: 60px;
+    background: url(media/image-principale.JPG) no-repeat  fixed 50% 50%;
+    height: 799px;
+    background-size: cover;
+}
+h1{
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    font-size: 6em;
+    color: antiquewhite;
+    margin-top: 110px;
+    text-shadow: 1px 3px 2px black;
+}
+#premiertrait{
+    height: 1px;
+    width: 25%;
+    margin: -3px auto;
+    background-color: #FFFAE1;
+    box-shadow: 1px 3px 2px black;
+
+}
+h3{
+    text-align: center;
+    color: antiquewhite;
+    font-size: 3em;
+    text-shadow: 1px 3px 2px black;
+
+}
+/**************presentation *********************/
+ #presentation{
+     background-color: #FFFAE1;
+     padding: 10px 0px 100px 0;
+ }
+ #textintro{
+     padding: 0px 20%;
+ }
+ #presentations{
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+     padding: 30px 10% ;
+    }
+ .imagespresenattion h4{
+     font-family:'Dancing script' , cursive ;
+     font-size: 1.8em;
+     margin:15px ;
+     text-align: center;
+     font-weight: 300;
+ }
+ .imagespresenattion img {
+
+    border-radius: 10px;
+    box-shadow: 5px 5px 3px 1px #000000;
+ }
+ .imagespresenattion  img:hover {
+ opacity: 0.5;
+ scale: 1.05;
+ transition: 0.8s ease-in-out;
+
+}
+
+
+
+
+/****************videooooo***********/
+@import url('https://fonts.googleapis.com/css?family=Marck+Script&display=swap');
+#video{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: 'Marck Script' , cursive;
+
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#title {
+    font-size: 6rem;
+    position: absolute;
+    top: 1600px;
+    left: 200px;
+    font-weight: bold;
+    color: rgb(44,5,12);
+    text-shadow: 1px 2px 6px #eee; 
+}
+#vid{
+    width: 100%;
+}
+#video #button{
+    position: absolute;
+    top: 2000px;
+    left: 600px;
+  transform: translateX(50%);
+  padding: 1.5rem 2.5rem;
+  text-transform: uppercase;
+  background: rgba(105,237,255,0.64);
+  border-radius: 0 0 20px 20px;
+  font-size: 2rem;
+  box-shadow: 0 0 6px #eee;
+  cursor: pointer;
+  display: flex;
+}
+.text {
+    margin: 0;
+    font-weight: bolder;
+}
+.fas{
+    opacity: 0;
+    transform: translateY(40px);
+}
+#button:hover .fas{
+
+opacity: 1;
+transform: translateX(10px);
+transform: translateY(10px);
+
+transition: 0.4s ease;
+
+
+}
+#button:hover .text{
+    transform: translateX(-10px);
+    transition: 0.4s ease;
+
+}
+#button:hover{
+    filter: brightness(160%);
+}
+#button:active{
+    transform: scale(0.9) translateX(50%) ;
+    transition: 0.4s ease;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*******************tourisme*************/
+#tourisme{
+height:1400px ;
+padding: 1px 2%;
+background-color: #f1f2f6;
+}
+
+#tourisme h2 {
+    padding-top: 60px;
+}
+#ocean{
+    background: url(media/ocean.jpg) ;
+}
+#chateau{
+    background: url(media/chateau.jpg);
+}
+#phare{
+    background: url(media/phare.jpg);
+}
+#vignoble{
+    background: url(media/vignes.jpg);
+}
+#tourisme li {
+    margin: 65px 100px 0 100px;
+    height: 226px;
+    width: 55%;
+    max-width: 550px;
+    float: left;
+    box-shadow: 6px 6px 28px -1px rgba(0, 0, 0, 0.75);
+}
+#tourisme p {
+height:45px ;
+width:235px ;
+text-align: center;
+padding-top:15px;
+font-size: 1.5em;
+float: right;
+background-color: #01DF74;
+box-shadow: 4px 4px 0px 1px rgba(98, 161, 43, 1);
+margin: 50px -180px 0 0;
+}
+#tourisme #chateau ,#tourisme #vignoble{
+    float: right;
+}
+
+#chateau p , #vignoble p {
+    float: left;
+    background-color:cyan;
+    margin-left: -180px;
+    box-shadow: -4px 4px 0px 1px rgba(15, 154, 156, 1);
+
+}
+/************contacttttttttt**********/
+footer{
+    background-color: #FFFAE1;
+    padding: 20px 0px 10px 0px;
+    text-align: center;
+}
+form{
+}
